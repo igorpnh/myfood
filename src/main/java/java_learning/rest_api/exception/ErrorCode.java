@@ -3,6 +3,7 @@ package java_learning.rest_api.exception;
 public enum ErrorCode {
 
     //USER
+    USER_NOT_FOUND(404, "User Not Found"),
     USER_ALREADY_EXISTS(400, "User already exists"),
     USER_NAME_IS_REQUIRED(400, "Name is required"),
     USER_NAME_IS_TOO_LONG(400, "Name is too long"),
